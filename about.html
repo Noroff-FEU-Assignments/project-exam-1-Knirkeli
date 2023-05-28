@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om Trollmagi</title>
+    <meta
+      name="description"
+      content="Lær mer om vår lidenskap for trollenes verden og vår reise for å dele deres historier med verden. Besøk vår Om oss-side på bloggen."
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://kit.fontawesome.com/6bd7a8590b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/modal.js" type="module"></script>
+    <script defer src="js/loader.js" type="module"></script>
+    <script defer src="js/subscribe.js" type="module"></script>
+    <script defer src="js/header.js" type="module"></script>
+    <!-- Hotjar Tracking Code for Trollmagi -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3505360, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header class="header">
+      <div class="logo__container">
+        <a href="Index.html"
+          ><img src="img/Troll_logo2.svg" alt="Troll with a club" />
+          <h1 tabindex="0" class="heading">Trollmagi</h1></a
+        >
+      </div>
+      <nav>
+        <ul>
+          <li><a href="allpost.html">Troll</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="about.html">Om oss</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="about__us--page">
+      <div class="about__text--container">
+        <h2 class="about__header">Trollmagi</h2>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A dignissimos
+          error maxime, nam facilis natus vel beatae, repudiandae ullam minus
+          doloremque, aut quisquam assumenda corporis aperiam culpa accusantium
+          inventore! Quo, voluptatem praesentium quaerat repellat repudiandae
+          aut, asperiores veritatis necessitatibus accusantium debitis maxime!
+          Et reprehenderit laborum ea dolore? Ipsam necessitatibus earum omnis,
+          ea itaque repellat veniam laudantium optio reprehenderit? Fugiat
+          commodi officia dignissimos in distinctio nesciunt veniam? Fuga optio
+          et soluta. Quod nam architecto distinctio ea recusandae, voluptas
+          temporibus magni, minus nemo a vel! Neque quas repellat officiis nam
+          eveniet iste nihil porro molestias expedita impedit, maxime at, magnam
+          omnis. Nam.
+        </p>
+      </div>
+      <div class="about__img--container">
+        <img
+          tabindex="0"
+          class="about__img"
+          src="img/Girl and the storm.jpg"
+          alt="Girl looking for trolls on the edge of a storm"
+        />
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span tabindex="0" class="close">&times;</span>
+      <img class="modal-content" id="img01" alt="modal hidden" />
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <div class="sign__up">
+          <h4>Bli varslet om nye troll</h4>
+          <form id="signupForm">
+            <div class="sub__input--field">
+              <input
+                class="sub_field form_field"
+                type="text"
+                name="contact__email"
+                id="signupEmail"
+                placeholder="trollmagi@blog.com"
+                aria-label="Email"
+              />
+              <span class="error signup__error" id="signupEmailError"></span>
+              <div id="signupSuccess"></div>
+            </div>
+            <button form="signupForm" class="sub__button button">
+              Meld på
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="social__follow">
+        <h4>Følg oss i sosiale medier</h4>
+        <a aria-label="instagram" href="https://www.instagram.com"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a aria-label="facebook" href="https://www.facebook.com"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a aria-label="snapchat" href="https://www.snapchat.com"
+          ><i class="fa-brands fa-snapchat"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
