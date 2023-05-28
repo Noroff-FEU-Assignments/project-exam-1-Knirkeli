@@ -592,7 +592,7 @@ p.preview__post {
 
 @media (min-width: 800px) {
   .more__blogs {
-    font-size: 28px; /* adjust this value as needed */
+    font-size: 28px;
   }
 }
 
