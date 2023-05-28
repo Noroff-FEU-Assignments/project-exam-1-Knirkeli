@@ -737,6 +737,11 @@ button {
   padding: 10px;
 }
 
+.single__post--text p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 /*preloader*/
 
 #preloader {
